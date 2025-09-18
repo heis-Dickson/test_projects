@@ -9,4 +9,5 @@ async function fetchData(url) {
         throw new Error(`There was a networking error: ${error}`);
     }
 }
-module
+
+module.exports = { fetchData };
